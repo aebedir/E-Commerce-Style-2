@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+.img{
+    width: 100%;
+}
+.nav-item .nav-link{
+    color: white;
+}
+
+.slider__nav{
+    max-height: 350px;
+}
+@media screen and (max-width:1200px) {
+    .slider__nav{
+        max-height: 300px;
+    }
+}
+@media screen and (max-width:992px) {
+    .slider__nav{
+        max-height: 220px;
+    }
+}
+
+.card .img-wrap{
+    position: relative;
+    height: 240px;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+.card .img-wrap img{
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+.card .badge{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.card .title{
+    display: block;
+}
+.info-wrap{
+    padding: 10px;
+}
+.btn-icon{
+    opacity: 0.5;
+}
+.btn-icon:hover{
+    opacity: 1;
+}
+
+
+
